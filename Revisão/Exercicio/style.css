@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(21, 43, 65);
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+
+.box-nav{
+    background-color: rgb(230, 225, 225);
+    padding: 5px;
+    border-radius: 15px;
+}
+.box{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-family: "DM Sans", sans-serif;
+    position: absolute; /*para alinhar a div com os itens q estão dentro dela*/
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%); /*'top','left' e 'translate' comandos para centralizar a div */
+    padding: 15px;
+    border-radius: 15px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    outline: none; /* comando para tirar o destaque do input quando ele é selecionado*/
+    border-radius: 5px;
+    font-size: 15px;
+    width: 80%;
+}
+
+button{
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 75%;
+    background-color: rgb(236, 234, 234);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(42, 127, 202);
+}
